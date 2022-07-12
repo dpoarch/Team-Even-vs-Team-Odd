@@ -87,7 +87,7 @@ namespace _3_3Basketball_Gam
                 String Email = teamE[i].Email;
                 String City = teamE[i].City;
                 String CompanyName = teamE[i].CompanyName;
-                Console.WriteLine(String.Format("Id: {0} Name: {1} Emai: {2} City: {3} Company: {4}", Id, Name, Email, City, CompanyName));
+                Console.WriteLine(String.Format("Id: {0} Name: {1} Email: {2} City: {3} Company: {4}", Id, Name, Email, City, CompanyName));
             }
             Console.WriteLine("");
         }
@@ -105,7 +105,7 @@ namespace _3_3Basketball_Gam
                 String City = teamO[i].City;
                 String CompanyName = teamO[i].CompanyName;
 
-                Console.WriteLine(String.Format("Id: {0} Name: {1} Emai: {2} City: {3} Company: {4}", Id, Name, Email, City, CompanyName));
+                Console.WriteLine(String.Format("Id: {0} Name: {1} Email: {2} City: {3} Company: {4}", Id, Name, Email, City, CompanyName));
             }
             Console.WriteLine("");
         }
