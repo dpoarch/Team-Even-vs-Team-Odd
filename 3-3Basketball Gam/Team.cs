@@ -75,7 +75,7 @@ namespace _3_3Basketball_Gam
         public void DisplayTeamEven()
         {
             Console.WriteLine("");
-            Console.WriteLine("============================== Even Team List ==================================");
+            Console.WriteLine("==============================  Even Team  ==================================");
 
             for(int i = 0; i < teamE.Count(); i++)
             {
@@ -92,7 +92,7 @@ namespace _3_3Basketball_Gam
         public void DisplayTeamOdd()
         {
             Console.WriteLine("");
-            Console.WriteLine("============================== Odd Team List ==================================");
+            Console.WriteLine("==============================  Odd Team  ==================================");
 
             for (int i = 0; i < teamO.Count(); i++)
             {
