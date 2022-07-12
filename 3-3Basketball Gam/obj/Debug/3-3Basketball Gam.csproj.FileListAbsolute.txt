@@ -1,0 +1,11 @@
+C:\Users\nevor\source\repos\3_3_Basketball_Game\3-3Basketball Gam\bin\Debug\3-3Basketball Gam.exe.config
+C:\Users\nevor\source\repos\3_3_Basketball_Game\3-3Basketball Gam\bin\Debug\3-3Basketball Gam.exe
+C:\Users\nevor\source\repos\3_3_Basketball_Game\3-3Basketball Gam\bin\Debug\3-3Basketball Gam.pdb
+C:\Users\nevor\source\repos\3_3_Basketball_Game\3-3Basketball Gam\obj\Debug\3-3Basketball Gam.csproj.AssemblyReference.cache
+C:\Users\nevor\source\repos\3_3_Basketball_Game\3-3Basketball Gam\obj\Debug\3-3Basketball Gam.csproj.SuggestedBindingRedirects.cache
+C:\Users\nevor\source\repos\3_3_Basketball_Game\3-3Basketball Gam\obj\Debug\3-3Basketball Gam.csproj.CoreCompileInputs.cache
+C:\Users\nevor\source\repos\3_3_Basketball_Game\3-3Basketball Gam\obj\Debug\3-3Basketball Gam.exe
+C:\Users\nevor\source\repos\3_3_Basketball_Game\3-3Basketball Gam\obj\Debug\3-3Basketball Gam.pdb
+C:\Users\nevor\source\repos\3_3_Basketball_Game\3-3Basketball Gam\bin\Debug\Newtonsoft.Json.dll
+C:\Users\nevor\source\repos\3_3_Basketball_Game\3-3Basketball Gam\bin\Debug\Newtonsoft.Json.xml
+C:\Users\nevor\source\repos\3_3_Basketball_Game\3-3Basketball Gam\obj\Debug\3-3Basketball Gam.csproj.CopyComplete
