@@ -15,7 +15,12 @@ namespace _3_3Basketball_Gam
         static void Main(string[] args)
         {
             dynamic jsonObj = FetchAPI();
+            
             Team team = new Team(jsonObj);
+
+            team.DisplayTeamEven();
+            team.DisplayTeamOdd();
+
             Console.ReadLine();
         }
 
