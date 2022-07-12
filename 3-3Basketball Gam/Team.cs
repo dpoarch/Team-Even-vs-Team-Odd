@@ -7,19 +7,23 @@ using _3_3Basketball_Gam.Model;
 
 namespace _3_3Basketball_Gam
 {
+    
     class Team
     {
+        
+        /* Model Initializer */
+        public List<TeamOdd> teamO; 
+        public List<TeamEven> teamE;
+
         public int OddKey = 0;
         public int evenKey = 0;
 
-        public List<TeamOdd> teamO;
-        public List<TeamEven> teamE;
-        
 
+        /* Team constructor */
         public Team(int limiter, dynamic obj)
         {
-            teamE = new List<TeamEven>();
-            teamO = new List<TeamOdd>();
+            teamE = new List<TeamEven>(); 
+            teamO = new List<TeamOdd>(); 
 
             int counter = 1;
 
@@ -30,14 +34,14 @@ namespace _3_3Basketball_Gam
                 String email = myobj.email;
                 String address = myobj.address.city;
                 String companyName = myobj.company.name;
-                if(counter <= limiter)
+                if(counter <= limiter) //limit user from IdentifyTeam
                 {
                     IdentifyTeam(
                      id,
                      name,
                      email,
                      address,
-                     companyName);
+                     companyName); //set team odd/even
                 }
                 counter++;
             }
@@ -45,12 +49,10 @@ namespace _3_3Basketball_Gam
             Console.WriteLine("Assigning Team Members...");
         }
 
-
+        /* Assign Team members */
         public void IdentifyTeam(int Id, string Name, string Email, string City, string CompanyName)
         {
-            
-            
-            if (Id % 2 == 0)
+            if (Id % 2 == 0) //filter odd/even
             {
                 teamE.Add(new TeamEven());
                 teamE[evenKey].Id = Id;
@@ -72,6 +74,7 @@ namespace _3_3Basketball_Gam
             }
         }
 
+        /* Display Output Odd/even */
         public void DisplayTeamEven()
         {
             Console.WriteLine("");
