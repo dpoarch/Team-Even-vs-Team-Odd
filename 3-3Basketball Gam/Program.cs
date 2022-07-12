@@ -12,11 +12,12 @@ namespace _3_3Basketball_Gam
     {
 
         public const string URL = "https://jsonplaceholder.typicode.com/users";
+        public const int Limiter = 6;
         static void Main(string[] args)
         {
             dynamic jsonObj = FetchAPI();
             
-            Team team = new Team(jsonObj);
+            Team team = new Team(Limiter, jsonObj);
 
             team.DisplayTeamEven();
             team.DisplayTeamOdd();

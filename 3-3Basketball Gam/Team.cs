@@ -16,10 +16,12 @@ namespace _3_3Basketball_Gam
         public List<TeamEven> teamE;
         
 
-        public Team(dynamic obj)
+        public Team(int limiter, dynamic obj)
         {
             teamE = new List<TeamEven>();
             teamO = new List<TeamOdd>();
+
+            int counter = 1;
 
             foreach (var myobj in obj)
             {
@@ -28,13 +30,16 @@ namespace _3_3Basketball_Gam
                 String email = myobj.email;
                 String address = myobj.address.city;
                 String companyName = myobj.company.name;
-
-                IdentifyTeam(
-                 id,
-                 name,
-                 email,
-                 address,
-                 companyName);
+                if(counter <= limiter)
+                {
+                    IdentifyTeam(
+                     id,
+                     name,
+                     email,
+                     address,
+                     companyName);
+                }
+                counter++;
             }
 
             Console.WriteLine("Assigning Team Members...");
